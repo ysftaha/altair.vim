@@ -66,6 +66,7 @@ highlight! link DiffChange diffChanged
 highlight! link DiffDelete diffRemoved 
 highlight! link Boolean Number
 highlight! link Delimiter Normal
+highlight! link Conceal Normal
 highlight! link Identifier Normal
 highlight! link Debug Normal
 highlight! link Exception Normal
