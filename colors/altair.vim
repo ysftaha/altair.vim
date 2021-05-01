@@ -23,15 +23,19 @@ if has("gui_running") || &t_Co == 256 " gui of 256 color terminal
   hi ErrorMsg     cterm=NONE           ctermfg=255     ctermbg=124     gui=NONE           guifg=#eeeeee    guibg=#af0000
   hi Search       cterm=bold           ctermfg=16      ctermbg=179     gui=bold           guifg=#000000    guibg=#d7af5f
   hi IncSearch    cterm=bold           ctermfg=16      ctermbg=179     gui=bold           guifg=#000000    guibg=#d7af5f
-  hi Title        cterm=none           ctermfg=111     ctermbg=NONE    gui=none           guifg=#87afff    guibg=NONE
+  hi Title        cterm=NONE           ctermfg=111     ctermbg=NONE    gui=NONE           guifg=#87afff    guibg=NONE
 
-  hi diffAdded      cterm=none        ctermfg=42       ctermbg=234     gui=none           guifg=#00d787     guibg=#1c1c1c
-  hi diffRemoved    cterm=none        ctermfg=1        ctermbg=234     gui=none           guifg=#af0000	    guibg=#1c1c1c
-  hi diffFile       cterm=none        ctermfg=202      ctermbg=234     gui=none           guifg=#ff5f00		  guibg=#1c1c1c
-  hi diffIndexLine  cterm=none        ctermfg=202      ctermbg=234     gui=none           guifg=#ff5f00		  guibg=#1c1c1c
-  hi diffLine       cterm=none        ctermfg=202      ctermbg=234     gui=none           guifg=#ff5f00		  guibg=#1c1c1c
-  hi diffSubname    cterm=none        ctermfg=202      ctermbg=234     gui=none           guifg=#ff5f00		  guibg=#1c1c1c
-  hi DiffText       cterm=none        ctermfg=202      ctermbg=234     gui=bold           guifg=#d75f00	    guibg=#1c1c1c 
+  hi diffAdded      cterm=NONE        ctermfg=42       ctermbg=234     gui=NONE           guifg=#00d787     guibg=#1c1c1c
+  hi diffRemoved    cterm=NONE        ctermfg=1        ctermbg=234     gui=NONE           guifg=#af0000	    guibg=#1c1c1c
+  hi diffFile       cterm=NONE        ctermfg=202      ctermbg=234     gui=NONE           guifg=#ff5f00		  guibg=#1c1c1c
+  hi diffIndexLine  cterm=NONE        ctermfg=202      ctermbg=234     gui=NONE           guifg=#ff5f00		  guibg=#1c1c1c
+  hi diffLine       cterm=NONE        ctermfg=202      ctermbg=234     gui=NONE           guifg=#ff5f00		  guibg=#1c1c1c
+  hi diffSubname    cterm=NONE        ctermfg=202      ctermbg=234     gui=NONE           guifg=#ff5f00		  guibg=#1c1c1c
+  hi DiffText       cterm=NONE        ctermfg=202      ctermbg=234     gui=bold           guifg=#d75f00	    guibg=#1c1c1c 
+
+	hi GitSignsAdd 	  cterm=NONE        ctermfg=42       ctermbg=NONE     gui=NONE          guifg=#00d787     guibg=NONE
+	hi GitSignsDelete cterm=NONE        ctermfg=1        ctermbg=NONE     gui=NONE          guifg=#af0000	    guibg=NONE
+	hi GitSignsChange cterm=NONE 				ctermfg=208 		 ctermbg=NONE 		gui=NONE 					guifg=#ff8700 	  guibg=NONE
 
   hi SignColumn   cterm=NONE           ctermfg=240     ctermbg=NONE    gui=NONE           guifg=#585858    guibg=NONE
   hi SpellBad     cterm=undercurl      ctermfg=88      ctermbg=NONE    gui=undercurl      guifg=#870000    guibg=NONE
