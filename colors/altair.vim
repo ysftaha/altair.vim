@@ -100,6 +100,7 @@ highlight! link Float Number
 highlight! link Folded Number
 highlight! link WarningMsg Number
 highlight! link iCursor SpecialKey
+highlight! link CursorColumn CursorLine
 highlight! link SpellLocal SpellCap
 highlight! link NonText Comment
 highlight! link VisualNOS Visual
