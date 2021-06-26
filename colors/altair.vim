@@ -106,7 +106,7 @@ highlight! link iCursor SpecialKey
 highlight! link CursorColumn CursorLine
 highlight! link SpellLocal SpellCap
 highlight! link NonText Comment
-highlight! link githubFlavoredMarkdownCode Comment
+highlight! link githubFlavoredMarkdownCode String
 highlight! link VisualNOS Visual
 highlight! link Cursor StatusLine
 highlight! link Underlined SpellRare
