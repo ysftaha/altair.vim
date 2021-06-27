@@ -37,11 +37,7 @@ if has("gui_running") || &t_Co == 256 " gui of 256 color terminal
 	hi GitSignsDelete cterm=NONE        ctermfg=1        ctermbg=NONE     gui=NONE          guifg=#af0000	    guibg=NONE
 	hi GitSignsChange cterm=NONE 				ctermfg=208 		 ctermbg=NONE 		gui=NONE 					guifg=#ff8700 	  guibg=NONE
 
-	hi githubFlavoredMarkdownStrikethrough 	cterm=STRIKETHROUGH  ctermfg=250     ctermbg=NONE    gui=STRIKETHROUGH  guifg=#bcbcbc    guibg=NONE
-	hi githubFlavoredMarkdownCheckBoxsd 		cterm=BOLD           ctermfg=130     ctermbg=NONE    gui=BOLD           guifg=#af5f00    guibg=NONE
-	hi githubFlavoredMarkdownCheckBoxsO     cterm=BOLD           ctermfg=208     ctermbg=NONE    gui=BOLD           guifg=#ff8700    guibg=NONE
-	hi githubFlavoredMarkdownCheckBoxO 			cterm=BOLD           ctermfg=36      ctermbg=NONE    gui=BOLD           guifg=#00af87    guibg=NONE
-	hi githubFlavoredMarkdownCheckBoxX 			cterm=BOLD           ctermfg=42      ctermbg=NONE    gui=BOLD           guifg=#00d787    guibg=NONE
+	hi VimwikiDelText cterm=STRIKETHROUGH  ctermfg=250     ctermbg=NONE gui=STRIKETHROUGH  guifg=#bcbcbc    guibg=NONE
 
   hi SignColumn   cterm=NONE           ctermfg=240     ctermbg=NONE    gui=NONE           guifg=#585858    guibg=NONE
   hi SpellBad     cterm=undercurl      ctermfg=88      ctermbg=NONE    gui=undercurl      guifg=#870000    guibg=NONE
@@ -118,7 +114,13 @@ highlight! link SpellCap  Todo
 highlight! link SpellRare Todo
 highlight! link Ignore Normal
 
+
+
 " Plugins
 " https://github.com/justinmk/vim-sneak
 highlight! link Sneak Search
 highlight! link SneakLabel Search
+
+hi! link VimwikiCheckBoxDone String
+hi! link VimwikiList CursorLineNr
+hi! link VimwikiCellSeparator String
