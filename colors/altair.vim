@@ -60,67 +60,59 @@ if has("gui_running") || &t_Co == 256 " gui of 256 color terminal
   hi CursorLineNr cterm=BOLD           ctermfg=255     ctermbg=NONE    gui=BOLD           guifg=#ffffff    guibg=NONE
   hi VertSplit    cterm=NONE           ctermfg=236     ctermbg=NONE    gui=NONE           guifg=#303030    guibg=NONE
 
-  " Plugins :
-  " vim-sneak : https://github.com/justinmk/vim-sneak
   hi SneakLabelMask cterm=bold  ctermfg=179  ctermbg=179  gui=bold  guifg=#d7af5f guibg=#d7af5f
   hi SneakScope     cterm=bold  ctermfg=16   ctermbg=37   gui=bold  guifg=#000000 guibg=#00afaf
 else " TODO non-256 color terminals
 endif
 
-highlight! link DiffAdd diffAdded 
-highlight! link DiffChange diffChanged 
-highlight! link DiffDelete diffRemoved 
-highlight! link Boolean Number
-highlight! link Delimiter Normal
-highlight! link Conceal Normal
-highlight! link Identifier Normal
-highlight! link Debug Normal
-highlight! link Exception Normal
-highlight! link FoldColumn Normal
-highlight! link Macro Normal
-highlight! link ModeMsg Normal
-highlight! link MoreMsg Normal
-highlight! link Question Normal
-highlight! link Conditional Keyword
-highlight! link Statement Keyword
-highlight! link Operator Type
-highlight! link Structure Keyword
-highlight! link Function Keyword
-highlight! link Include Keyword
-highlight! link Label Keyword
-highlight! link Define Keyword
-highlight! link Directory Keyword
-highlight! link PreCondit Keyword
-highlight! link PreProc Keyword
-highlight! link Repeat Keyword
-highlight! link Special Keyword
-highlight! link SpecialChar Keyword
-highlight! link StorageClass Keyword
-highlight! link SpecialComment String
-highlight! link Character Number
-highlight! link Float Number
-highlight! link Folded Number
-highlight! link WarningMsg Number
-highlight! link iCursor SpecialKey
-highlight! link CursorColumn CursorLine
-highlight! link SpellLocal SpellCap
-highlight! link NonText Comment
-highlight! link githubFlavoredMarkdownCode String
-highlight! link VisualNOS Visual
-highlight! link Cursor StatusLine
-highlight! link Underlined SpellRare
-highlight! link rstEmphasis SpellRare
-highlight! link SpellCap  Todo
-highlight! link SpellRare Todo
-highlight! link Ignore Normal
-
-
-
-" Plugins
-" https://github.com/justinmk/vim-sneak
-highlight! link Sneak Search
-highlight! link SneakLabel Search
-
+hi! link DiffAdd diffAdded 
+hi! link DiffChange diffChanged 
+hi! link DiffDelete diffRemoved 
+hi! link Boolean Number
+hi! link Delimiter Normal
+hi! link Conceal Normal
+hi! link Identifier Normal
+hi! link Debug Normal
+hi! link Exception Normal
+hi! link FoldColumn Normal
+hi! link Macro Normal
+hi! link ModeMsg Normal
+hi! link MoreMsg Normal
+hi! link Question Normal
+hi! link Conditional Keyword
+hi! link Statement Keyword
+hi! link Operator Type
+hi! link Structure Keyword
+hi! link Function Keyword
+hi! link Include Keyword
+hi! link Label Keyword
+hi! link Define Keyword
+hi! link Directory Keyword
+hi! link PreCondit Keyword
+hi! link PreProc Keyword
+hi! link Repeat Keyword
+hi! link Special Keyword
+hi! link SpecialChar Keyword
+hi! link StorageClass Keyword
+hi! link SpecialComment String
+hi! link Character Number
+hi! link Float Number
+hi! link Folded Number
+hi! link WarningMsg Number
+hi! link iCursor SpecialKey
+hi! link CursorColumn CursorLine
+hi! link SpellLocal SpellCap
+hi! link NonText Comment
+hi! link githubFlavoredMarkdownCode String
+hi! link VisualNOS Visual
+hi! link Cursor StatusLine
+hi! link Underlined SpellRare
+hi! link rstEmphasis SpellRare
+hi! link SpellCap  Todo
+hi! link SpellRare Todo
+hi! link Ignore Normal
+hi! link Sneak Search
+hi! link SneakLabel Search
 hi! link VimwikiCheckBoxDone String
 hi! link VimwikiList CursorLineNr
 hi! link VimwikiCellSeparator String
