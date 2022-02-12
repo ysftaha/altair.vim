@@ -52,8 +52,8 @@ if has("gui_running") || &t_Co == 256 " gui of 256 color terminal
   hi MatchParen   cterm=NONE           ctermfg=16      ctermbg=240     gui=NONE           guifg=#000000    guibg=#585858
   hi CursorLine   cterm=NONE           ctermfg=NONE    ctermbg=233     gui=NONE           guifg=NONE       guibg=#121212
   hi ColorColumn  cterm=NONE           ctermfg=NONE    ctermbg=233     gui=NONE           guifg=NONE       guibg=#121212
-  hi StatusLine   cterm=bold,underline ctermfg=36      ctermbg=0       gui=bold,underline guifg=#00af87    guibg=NONE
-  hi StatusLineNC cterm=UNDERLINE,BOLD ctermfg=240     ctermbg=NONE    gui=underline,bold guifg=#585858    guibg=NONE
+  hi StatusLine   cterm=underline      ctermfg=36      ctermbg=0       gui=underline      guifg=#00af87    guibg=NONE
+  hi StatusLineNC cterm=UNDERLINE      ctermfg=240     ctermbg=NONE    gui=underline      guifg=#585858    guibg=NONE
   hi Visual       cterm=NONE           ctermfg=NONE    ctermbg=23      gui=NONE           guifg=NONE       guibg=#005f5f
   hi TermCursor   cterm=reverse        ctermfg=NONE    ctermbg=NONE    gui=reverse        guifg=NONE       guibg=NONE
   hi TabLine      cterm=NONE           ctermfg=245     ctermbg=NONE    gui=NONE           guifg=#8a8a8a    guibg=NONE
