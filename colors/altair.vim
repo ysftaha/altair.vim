@@ -31,7 +31,7 @@ if has("gui_running") || &t_Co == 256 " gui of 256 color terminal
   hi diffIndexLine  cterm=NONE        ctermfg=202      ctermbg=234     gui=NONE           guifg=#ff5f00		  guibg=#1c1c1c
   hi diffLine       cterm=NONE        ctermfg=202      ctermbg=234     gui=NONE           guifg=#ff5f00		  guibg=#1c1c1c
   hi diffSubname    cterm=NONE        ctermfg=202      ctermbg=234     gui=NONE           guifg=#ff5f00		  guibg=#1c1c1c
-  hi DiffText       cterm=NONE        ctermfg=202      ctermbg=234     gui=bold           guifg=#d75f00	    guibg=#1c1c1c 
+  hi DiffText       cterm=NONE        ctermfg=202      ctermbg=234     gui=bold           guifg=#d75f00	    guibg=#1c1c1c
 
 	hi GitSignsAdd 	  cterm=NONE        ctermfg=42       ctermbg=NONE     gui=NONE          guifg=#00d787     guibg=NONE
 	hi GitSignsDelete cterm=NONE        ctermfg=1        ctermbg=NONE     gui=NONE          guifg=#af0000	    guibg=NONE
@@ -65,9 +65,9 @@ if has("gui_running") || &t_Co == 256 " gui of 256 color terminal
 else " TODO non-256 color terminals
 endif
 
-hi! link DiffAdd diffAdded 
-hi! link DiffChange diffChanged 
-hi! link DiffDelete diffRemoved 
+hi! link DiffAdd diffAdded
+hi! link DiffChange diffChanged
+hi! link DiffDelete diffRemoved
 hi! link Boolean Number
 hi! link Delimiter Normal
 hi! link Conceal Normal
@@ -116,3 +116,34 @@ hi! link SneakLabel Search
 hi! link VimwikiCheckBoxDone String
 hi! link VimwikiList CursorLineNr
 hi! link VimwikiCellSeparator String
+
+" Navic
+hi! link NavicIconsTypeParameter Comment
+hi! link NavicIconsConstructor Comment
+hi! link NavicIconsEnumMember Comment
+hi! link NavicIconsNamespace Comment
+hi! link NavicIconsInterface Comment
+hi! link NavicIconsVariable Comment
+hi! link NavicIconsProperty Comment
+hi! link NavicIconsOperator Comment
+hi! link NavicIconsFunction Comment
+hi! link NavicIconsConstant Comment
+hi! link NavicIconsPackage Comment
+hi! link NavicIconsBoolean Comment
+hi! link NavicIconsStruct Comment
+hi! link NavicIconsString Comment
+hi! link NavicIconsObject Comment
+hi! link NavicIconsNumber Comment
+hi! link NavicIconsModule Comment
+hi! link NavicIconsMethod Comment
+hi! link NavicIconsField Comment
+hi! link NavicIconsEvent Comment
+hi! link NavicIconsClass Comment
+hi! link NavicIconsArray Comment
+hi! link NavicIconsNull Comment
+hi! link NavicIconsFile Comment
+hi! link NavicIconsEnum Comment
+hi! link NavicIconsKey Comment
+
+hi! link NavicText Normal
+hi! link NavicSeparator Tag
