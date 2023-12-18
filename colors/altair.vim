@@ -146,4 +146,4 @@ hi! link NavicIconsEnum Comment
 hi! link NavicIconsKey Comment
 
 hi! link NavicText Normal
-hi! link NavicSeparator Number
+hi! link NavicSeparator Normal
