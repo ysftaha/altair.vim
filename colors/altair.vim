@@ -37,7 +37,6 @@ if has("gui_running") || &t_Co == 256 " gui of 256 color terminal
 	hi GitSignsDelete cterm=NONE        ctermfg=1        ctermbg=NONE     gui=NONE          guifg=#af0000	    guibg=NONE
 	hi GitSignsChange cterm=NONE 				ctermfg=208 		 ctermbg=NONE 		gui=NONE 					guifg=#ff8700 	  guibg=NONE
 
-	hi VimwikiDelText cterm=STRIKETHROUGH  ctermfg=250     ctermbg=NONE gui=STRIKETHROUGH  guifg=#bcbcbc    guibg=NONE
 
   hi SignColumn   cterm=NONE           ctermfg=240     ctermbg=NONE    gui=NONE           guifg=#585858    guibg=NONE
   hi SpellBad     cterm=undercurl      ctermfg=88      ctermbg=NONE    gui=undercurl      guifg=#870000    guibg=NONE
@@ -113,9 +112,6 @@ hi! link SpellRare Todo
 hi! link Ignore Normal
 hi! link Sneak Search
 hi! link SneakLabel Search
-hi! link VimwikiCheckBoxDone String
-hi! link VimwikiList CursorLineNr
-hi! link VimwikiCellSeparator String
 
 " Navic
 hi! link NavicIconsTypeParameter Comment
@@ -147,3 +143,4 @@ hi! link NavicIconsKey Comment
 
 hi! link NavicText Normal
 hi! link NavicSeparator Normal
+hi! link WinSeparator VertSplit
